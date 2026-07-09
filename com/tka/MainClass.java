@@ -16,7 +16,7 @@ public class MainClass {
 
 		lp.m = new Mobile();// Using Refnce variable is--> m
 
-		System.out.println(lp.m.hashCode());
+		System.out.println(lp.m.hashCode());// Whenever you wnat to Memory Address Then Usng hashcode() in-built method
 		Mobile m = new Mobile();
 		System.out.println(m.mob_Name = "Moto");
 
